@@ -1,7 +1,23 @@
 .App {
   text-align: center;
 }
-
+.container{
+  padding:0px;
+  margin: 0px;
+}
+.nave{
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.12);
+}
+.search{
+  position: absolute;
+width: 360px;
+height: 42px;
+justify-content: center;
+top: 16px;
+padding-left: 16.75px;
+background: #F2F2F2;
+border-radius: 21px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +51,122 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.p{
+position: absolute;
+width: 183px;
+/* left: 80%; */
+
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+/* identical to box height */
+
+text-align: right;
+color: blue;
+
+/* color: #2E2E2E; */
+}
+.text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+
+.search_input{
+  display:flex;
+  align-items: center;
+  border: 1px solid #F2F2F2;
+  padding-left: 10px;
+  color: #7A7A7A;
+  max-width: 360px;
+}
+.facebook{
+  height: 38px;
+  background: #FFFFFF;
+border: 0.6px solid #D9D9DB;
+box-sizing: border-box;
+border-radius: 2px;
+}
+.signfooter{
+  font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 16px;
+/* identical to box height, or 145% */
+
+text-align: right;
+letter-spacing: -0.008em;
+
+color: #000000;
+
+opacity: 0.6;
+}
+.inpu{
+  flex: 1;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 16.75px;
+  background: #F2F2F2;
+  border: #f2f2f2;
+  width: 242px;
+  height: 19px;
+
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height */
+  color: #5C5C5C;
+}
+.search_inputIcon{
+  color: #7A7A7A;
+  /* padding-left: 16.75px; */
+}
+input:focus{
+  outline-width: 0;
+}
+.create{
+  font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 31px;
+
+color: #000000;
+}
+.title{
+  font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height, or 114% */
+
+text-align: center;
+
+color: #008A45;
+background: #EFFFF4;
+}
+.bottom{
+  font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 16px;
+/* identical to box height, or 145% */
+
+text-align: center;
+letter-spacing: -0.008em;
+
+color: #000000;
+
+opacity: 0.6;
 }
